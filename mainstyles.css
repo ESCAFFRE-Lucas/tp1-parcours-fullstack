@@ -11,16 +11,8 @@ h1 {
 }
 
 .global {
-    width: 100%;
-}
-
-.global .green {
-    float: left;
-    width: 60%;
-}
-
-.global .blue {
-    margin-left: 60%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .green {
@@ -29,11 +21,16 @@ h1 {
     border-color: darkgray;
     background-color: #C6F7E0;
     margin-left: 260px;
-    width: 1000px;
+    margin-right: auto;
+    width: 100px;
 }
 
 #col-1 {
     background-color: lawngreen;
+    border-style: solid;
+    margin: fill;
+    border-width: thin;
+    border-color: darkgray;
 }
 
 .blue {
