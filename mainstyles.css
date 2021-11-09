@@ -22,17 +22,19 @@ h1 {
     background-color: #C6F7E0;
     margin-left: 260px;
     margin-right: auto;
-    width: 100px;
 }
 
 #col-1 {
     background-color: lawngreen;
     border-style: solid;
-    margin: fill;
+    margin: 100%;
     border-width: thin;
     border-color: darkgray;
 }
 
 .blue {
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
     background-color: #CFEAFC;
 }
