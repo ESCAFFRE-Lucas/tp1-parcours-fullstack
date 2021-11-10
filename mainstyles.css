@@ -1,6 +1,15 @@
-.global {
+.global{
+    display: flex;
+}
+
+.sous-global {
     background-color: gray;
     margin: 5px;
+    width: 80%;
+}
+
+.item{
+    width: 20%;
 }
 
 h1 {
