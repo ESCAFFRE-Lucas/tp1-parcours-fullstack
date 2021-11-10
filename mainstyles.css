@@ -24,9 +24,26 @@ h1 {
 }
 
 #today-feature{
-    text-align: center;
+    text-align: left;
     background-color: #C6F7E0;
     margin: 5px;
+    border: 2px black solid;
+}
+
+#jojo{
+    text-align: left;
+    margin: 5px;
+}
+
+#did-you-know{
+    text-align: left;
+    background-color: #C6F7E0;
+    margin: 5px;
+    border: 2px black solid;
+}
+
+.anecdotes{
+    text-align: left;
 }
 
 #news {
@@ -35,3 +52,58 @@ h1 {
     width: 50%;
     margin: 5px;
 }
+
+#today-news{
+    text-align: left;
+    background-color: #CDDEF3;
+    margin: 5px;
+    border: 2px black solid;
+}
+
+.news-list{
+    text-align: left;
+}
+
+#day{
+    text-align: left;
+    background-color: #CDDEF3;
+    margin: 5px;
+    border: 2px black solid;
+}
+
+#from-today{
+    padding: 15px;
+    margin: 5px;
+    border: 2px black solid;
+    background-color: #FFF4FA;
+}
+
+#featured-list{
+    text-align: left;
+    background-color: #F8C8DD;
+    margin: 10px;
+    border: 2px black solid;
+}
+
+#picture{
+    padding: 15px;
+    margin: 5px;
+    border: 2px black solid;
+    background-color: #FCF3FF;
+}
+
+#featured-picture{
+    text-align: left;
+    background-color: #E3C7F3;
+    margin: 10px;
+    border: 2px black solid;
+}
+
+img{
+    aspect-ratio: 20/ 10;
+}
+
+#align{
+    display: flex;
+}
+
